@@ -24,3 +24,24 @@
 ![alt text](image.png)
 
 8) Criar melhor componente erro: error-page.jsx, e defini-lo como errorElement no root route
+
+9) Criação de componentes correspondentes ao link (criar arquivo e estruturar seu html e css)
+
+10) Linkar os componentes criados a suas rotas no main.jsx
+
+    `import NovoElement from "path";
+
+    {
+    path: "NovoElement/:NovoElementId",
+    element: <Contact />,
+  },
+
+## Aprendizado
+
+- main.tsx é o entry point.
+
+- root route é a primeira rota dentro da qual todas as outras renderizarão. É definido no main.tsx.
+
+- um componente erro definido como ErrorElement no root route abarca todo tipo de comportamento inesperado como carregamento infinito, página não encontrada, etc.
+
+- novas páginas = novos routes
