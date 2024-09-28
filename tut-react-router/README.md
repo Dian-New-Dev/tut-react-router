@@ -1,8 +1,12 @@
-# React + Vite
+# Tutorial: React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+- Repositório para projeto construído seguindo o tutorial contido na documentação oficial do React Router.
+- fonte: https://reactrouter.com/en/main/start/tutorial#tutorial
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Passos
+
+1) Instalação de projeto react via vite (passos do tutorial);
+2) Iniciei repositório;
+3) 
