@@ -17,4 +17,5 @@
 2) Iniciei repositório;
 3) Deleção de arquivos desnecessários dentro do src, mantendo apenas contact.js, index.css, main.jsx
 4) Configuração do main.jsx como entry point onde foi criado o Browser Router e criada a root route (a primeira rota, dentro da qual todas as outrsa renderizarão).
-5) Criei pasta routes e criei arquivo root.jsx dentro dela, com código pronto providenciado pelo tutorial;
+5) Criei pasta routes e criei componente root.jsx dentro dela, com código pronto providenciado pelo tutorial;
+6) Estabeleci o componente Root como root route no main
