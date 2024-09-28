@@ -36,6 +36,18 @@
     element: <Contact />,
   },
 
+  11) Nestagem dos novos componentes em main.tsx para renderizarem dentro do root layout
+
+  12) Criação de outlet onde queremos que o conteudo renderizze
+
+  13) Adicionar <Link> no root.jsx para cliques em links não fazerem um document request e apenas re-renderizar a UI. Substituir <a> por <Link to></Link>
+
+  - dados
+
+  14) Importar e usar getContacts no root.jsx
+
+  15) Configurar o loader no main.jsx
+
 ## Aprendizado
 
 - main.tsx é o entry point.
@@ -45,3 +57,5 @@
 - um componente erro definido como ErrorElement no root route abarca todo tipo de comportamento inesperado como carregamento infinito, página não encontrada, etc.
 
 - novas páginas = novos routes
+
+- para os componentes puxarem data do servidor, usa-se duas APIs proprias da biblioteca: loader e useLoaderData
